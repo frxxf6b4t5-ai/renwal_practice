@@ -1,0 +1,70 @@
+.main_wrap{padding-top: 100px;}
+.main_ad{width:90%;
+        margin:0 auto;}
+
+.log_in{width:30%;
+        margin-top:50px;} /*margin-top줘도 되나요?*/
+.log_in ul{display:flex;}
+.log_in li{width:30%;
+            padding-top:15px;
+            padding-bottom:15px;
+            border-radius:10%;
+            text-align: center;
+            line-height:20px;}
+.log_in li:nth-child(1){color:#e9edf1;
+                        background-color:#2e508b;}
+.log_in li:nth-child(2){margin-left:4%;
+                        color:#2e508b;
+                        background-color:#e9edf1;} 
+
+
+.slider_wrap{width:90%;
+            height:380px;
+            margin: 0 auto;
+            position: relative;}
+
+.slider{width:100%;
+        position:absolute;
+        z-index: 1;}
+
+.slider li .slider_txt{width:50%;
+                        float:left;
+                        padding-top:150px;} /*행간조절방법 / 세로중앙정렬?*/
+.slider li .slider_txt p{font-size:30px;
+                        font-weight: bold;}
+.slider li .slider_img{width:50%;
+                        float:right;}
+.slider li .slider_img img{width:100%;}
+
+.slider li{width:100%;
+            display:none;}
+.slider li:nth-child(1){display:block;} 
+
+
+.slider_btn{width:100%; /*버튼이 안보임*/
+            position:absolute;}
+.slider_btn li{width:50%;
+                background-image:url("../img/slider_btn.png");
+                z-index: 2;}
+
+.slider_btn li:nth-child(1){background-position:0px 0px;}
+.slider_btn li:nth-child(2){background-position:0px 45px;}
+.slider_btn li:nth-child(1):active{background-position:25px 0px;}
+.slider_btn li:nth-child(2):active{background-position:25px 45px;}
+
+.bottom_btn{position:absolute;}
+.bottom_btn li span{width:5px;
+				    height:5px;
+				    border-radius:100%;
+				    background-color:e9edf1;
+				    display:block;
+				    z-index:2;}
+.bottom_btn li span:active{background-color:#2e508b;}
+
+.menu ul{display:flex;}
+.menu li{width:9.09%;
+        padding-top:20px;
+        padding-bottom:20px;
+        font-size: 10px;
+        text-align: center;
+        background-color:#2e508b;}

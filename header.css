@@ -8,7 +8,6 @@ header{width:100%;
        }
 .header_wrap{
     width:90%;
-    height:100px;
     margin:0 auto;
     }
 
@@ -20,19 +19,24 @@ header .logo{
 header .nav_wrap{
     width:80%;
     float:right;
-    line-height:100px;
     }
 
-.nav_wrap .nav{
+.nav_wrap nav{
     width:75%;
     float:left;
 }
-.nav li{float:left;
-        font-size:20px;   
-        text-align: center;}
-.nav li:nth-child(1),.nav li:nth-child(2),.nav li:nth-child(5){width:8%;}
-.nav li:nth-child(3),.nav li:nth-child(4),.nav li:nth-child(6),.nav li:nth-child(7){width:15%;}
-.nav li:nth-child(8){width:16%;}
+nav li{float:left;
+        font-size:13px;   
+        text-align: center;
+        line-height:100px;}
+nav li:nth-child(1),nav li:nth-child(2),nav li:nth-child(5){width:8%;}
+nav li:nth-child(3),nav li:nth-child(4),nav li:nth-child(6),nav li:nth-child(7){width:10.5%;}
+nav li:nth-child(8){width:14%;}
+
+nav li:nth-child(3){padding-left:1%;
+                border-left: 1px solid #000;}
+nav li:nth-child(5){padding-right:1%;
+                border-right: 1px solid #000;} /*보더 길이 줄이는법*/
 
 .nav_wrap .icon{
     width:20%;
